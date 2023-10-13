@@ -1,0 +1,25 @@
+1. Durante la demostración, ¿qué distancia pudimos alcanzar con la comunicación LoRa entre el ESP32 y el ReYax RYLR998? ¿Por qué es relevante este largo alcance en aplicaciones de IoT?
+
+  durante la demostracion un compañero fue por alrededor de la mitad de la universidad, por lo que su alcance es bsatatne grande.
+  
+  es relevante porque es de bajo consumo energetico, por ello podemos instalarlos entre puntos muy lejos casi sin esfuerzo por lo pequeños que son
+  asi aumentando su utilidad y el rango para mandar datos.
+  
+
+2. En términos de consumo de energía, ¿cómo se compara LoRa con otras tecnologías de comunicación inalámbrica como Wi-Fi o Bluetooth?
+
+  es de muy bajo consumo, auqneu la diferencia recae en la tansmicion de los datos ya que este protocolo es de muy alta latencia.
+
+3. ¿Cuándo sería apropiado utilizar LoRa en un proyecto de IoT en lugar de otras tecnologías de comunicación?
+
+  cuando se necesitan mandar constantemente datos, entre puntos muy lejos y sin tanto acceso a la electricidad.
+
+4. ¿Porque se usó este número: 915000000 como Banda de frecuencia (Hz) en esta práctica?
+
+  se uso debido a que este es el numero propuesto o estandar para nuestro pais.
+
+5. Desde tu punto de vista individual crees que esta práctica, aunque no se pidió que la hicieran uds los estudiantes y solo la hizo la profesora ayudó a entender mas los conceptos teóricos? 
+Si o no y porque
+
+  Supongo que si ayudo a entender, porque asi se aterriza lo visto, tambien el hacer las prueba y de verdad ver que funcione hace todo mejor, me hubiera gustado hacerla pero los compoenntes son caros 
+  asi que no es una opcion en cuanto a hacerlo una vez, aunque podria usarlo para algun projecto.
