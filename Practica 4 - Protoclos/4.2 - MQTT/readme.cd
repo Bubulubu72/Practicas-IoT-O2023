@@ -1,2 +1,25 @@
 Entender y practicar de forma manual uno de los protocolos
 mas usados en IoT: MQTT, usaremos el “bróker” de ubidots
+
+
+Preguntas: 
+
+
+1. ¿Cuáles son los componentes principales en una comunicación MQTT?
+
+  el principal componente es la seguridad, que es ligero, no gasta tanta energia.
+
+2. Durante la práctica, ¿qué temas (topics) se utilizaron para enviar y recibir mensajes MQTT?
+
+  para enviare fue /v1.6/devices/{{Label del dispositivo}}
+
+  para recivir fue igual solo con las waildcards /v1.6/devices/{{Label del dispositivo}}/temperatura/lv
+
+3. En la práctica, ¿hubo algún problema que tuvieron que solucionar al enviar y recibir mensajes MQTT? ¿Cómo lo resolvieron?
+
+  En genral yo no tuve problemas, mas que el ver las credenciales del token, pero solo fue copiarlo bien.
+
+4. Esta práctica fue manual y el objetivo fue ayudar a entender la comunicación con MQTT, 
+¿crees que esta práctica ayuda a la comprensión teórica? Si o no y por qué..
+
+  me ayudo mucho a saber a hacer las subscripciones con las wildcards, aunque dependiendo la app que uses cambie el wildcard estuvo batatne bien.
