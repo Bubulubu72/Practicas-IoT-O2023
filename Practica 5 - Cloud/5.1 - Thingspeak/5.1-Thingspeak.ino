@@ -4,11 +4,11 @@
 // your network SSID (name)
 const char* ssid = "Totalplay-A4AA";
 // your network password
-const char* pass = "5BADF7A87B";
+const char* pass = "Password";
 WiFiClient client;
 
-unsigned long myChannelNumber = 2317906; //SECRET_CH_ID;
-const char* myWriteAPIKey = "MI88IFJXKAVEF0EU";
+unsigned long myChannelNumber = xxxx; //SECRET_CH_ID;
+const char* myWriteAPIKey = "xxxx";
 
 // Initialize with random values
 int number1 = random(0,50);
