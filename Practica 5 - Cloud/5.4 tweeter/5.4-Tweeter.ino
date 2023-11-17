@@ -24,15 +24,15 @@ const uint16_t timerDuration = 10000;
 
 // wifi credentials
 const char *ssid = "Totalplay-A4AA"; // Tu SSID
-const char *password = "5BADF7A87B"; // Tu PWD del SSID
+const char *password = "password"; // Tu PWD del SSID
 
 WiFiClient client;
 // OpenWeather
 String apiTemperature;
 String serverPath = "https://api.openweathermap.org/data/2.5/weather?lat=20.60&lon=-103.41&appid=9b5cf10b63110751b5a5784b22b9bace&units=metric"; //El path que usaste en el web para la tem de la API - TODO el path con http
 // ThingSpeak
-uint32_t SECRET_CH_ID = 2317906; // Tu channel ID number de thingspeak
-const char *SECRET_WRITE_APIKEY = "MI88IFJXKAVEF0EU"; // El API write de thingspeak
+uint32_t SECRET_CH_ID = xxx; // Tu channel ID number de thingspeak
+const char *SECRET_WRITE_APIKEY = "xxxxx"; // El API write de thingspeak
 
 void setup()
 {
